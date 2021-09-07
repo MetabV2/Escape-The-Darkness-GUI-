@@ -421,7 +421,6 @@ TPFRAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TPFRAME.BackgroundTransparency = 1.000
 TPFRAME.Position = UDim2.new(0.324000001, 0, 0.108000003, 0)
 TPFRAME.Size = UDim2.new(0, 410, 0, 307)
-TPFRAME.Visible = false
 
 Button_8.Name = "Button "
 Button_8.Parent = TPFRAME
@@ -1082,7 +1081,7 @@ UIGradient_26.Parent = CloseButton
 
 -- Scripts:
 
-local function MGLNIO_fake_script() -- Button.ANIMATION 
+local function ILBIH_fake_script() -- Button.ANIMATION 
 	local script = Instance.new('LocalScript', Button)
 
 	local btn = script.Parent
@@ -1125,8 +1124,8 @@ local function MGLNIO_fake_script() -- Button.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(MGLNIO_fake_script)()
-local function GWAF_fake_script() -- Button.TABLE 
+coroutine.wrap(ILBIH_fake_script)()
+local function PRND_fake_script() -- Button.TABLE 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1137,8 +1136,8 @@ local function GWAF_fake_script() -- Button.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(GWAF_fake_script)()
-local function XJYQA_fake_script() -- Button_2.ANIMATION 
+coroutine.wrap(PRND_fake_script)()
+local function ZBSLCR_fake_script() -- Button_2.ANIMATION 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local btn = script.Parent
@@ -1181,8 +1180,8 @@ local function XJYQA_fake_script() -- Button_2.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(XJYQA_fake_script)()
-local function OBCJ_fake_script() -- Button_2.TABLE 
+coroutine.wrap(ZBSLCR_fake_script)()
+local function ZEJJ_fake_script() -- Button_2.TABLE 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1194,8 +1193,8 @@ local function OBCJ_fake_script() -- Button_2.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(OBCJ_fake_script)()
-local function VUMOIC_fake_script() -- Button_3.ANIMATION 
+coroutine.wrap(ZEJJ_fake_script)()
+local function ZWCA_fake_script() -- Button_3.ANIMATION 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local btn = script.Parent
@@ -1238,8 +1237,8 @@ local function VUMOIC_fake_script() -- Button_3.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(VUMOIC_fake_script)()
-local function XGOWA_fake_script() -- Button_3.TABLE 
+coroutine.wrap(ZWCA_fake_script)()
+local function ZSRN_fake_script() -- Button_3.TABLE 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1250,8 +1249,8 @@ local function XGOWA_fake_script() -- Button_3.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XGOWA_fake_script)()
-local function HOJCHQI_fake_script() -- Button_4.ANIMATION 
+coroutine.wrap(ZSRN_fake_script)()
+local function DWFI_fake_script() -- Button_4.ANIMATION 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local btn = script.Parent
@@ -1294,8 +1293,8 @@ local function HOJCHQI_fake_script() -- Button_4.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(HOJCHQI_fake_script)()
-local function OURW_fake_script() -- Button_4.TABLE 
+coroutine.wrap(DWFI_fake_script)()
+local function JILQQR_fake_script() -- Button_4.TABLE 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1306,8 +1305,8 @@ local function OURW_fake_script() -- Button_4.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(OURW_fake_script)()
-local function CXMVN_fake_script() -- Button_5.ANIMATION 
+coroutine.wrap(JILQQR_fake_script)()
+local function HVVKKIO_fake_script() -- Button_5.ANIMATION 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local btn = script.Parent
@@ -1350,8 +1349,8 @@ local function CXMVN_fake_script() -- Button_5.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(CXMVN_fake_script)()
-local function YTEAJ_fake_script() -- Button_5.TABLE 
+coroutine.wrap(HVVKKIO_fake_script)()
+local function LFREDK_fake_script() -- Button_5.TABLE 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1362,8 +1361,8 @@ local function YTEAJ_fake_script() -- Button_5.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YTEAJ_fake_script)()
-local function POOEX_fake_script() -- Button_5.METAB SCRIPT 
+coroutine.wrap(LFREDK_fake_script)()
+local function TMKCY_fake_script() -- Button_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_5)
 
 	toggle = false
@@ -1469,8 +1468,8 @@ local function POOEX_fake_script() -- Button_5.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(POOEX_fake_script)()
-local function YOBBQZ_fake_script() -- Button_6.ANIMATION 
+coroutine.wrap(TMKCY_fake_script)()
+local function VSYCOAT_fake_script() -- Button_6.ANIMATION 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local btn = script.Parent
@@ -1513,8 +1512,8 @@ local function YOBBQZ_fake_script() -- Button_6.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(YOBBQZ_fake_script)()
-local function LFNIWSG_fake_script() -- Button_6.TABLE 
+coroutine.wrap(VSYCOAT_fake_script)()
+local function FCEGP_fake_script() -- Button_6.TABLE 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1525,8 +1524,8 @@ local function LFNIWSG_fake_script() -- Button_6.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(LFNIWSG_fake_script)()
-local function HCMXSXL_fake_script() -- Button_6.METAB SCRIPT 
+coroutine.wrap(FCEGP_fake_script)()
+local function CKJDZZ_fake_script() -- Button_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_6)
 
 	toggle = false
@@ -1632,8 +1631,8 @@ local function HCMXSXL_fake_script() -- Button_6.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(HCMXSXL_fake_script)()
-local function RXRZ_fake_script() -- Button_6.METAB SCRIPT 
+coroutine.wrap(CKJDZZ_fake_script)()
+local function SEBHXX_fake_script() -- Button_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_6)
 
 	toggle = false
@@ -1700,8 +1699,8 @@ local function RXRZ_fake_script() -- Button_6.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(RXRZ_fake_script)()
-local function MBETEH_fake_script() -- Button_7.ANIMATION 
+coroutine.wrap(SEBHXX_fake_script)()
+local function ONOVC_fake_script() -- Button_7.ANIMATION 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local btn = script.Parent
@@ -1744,8 +1743,8 @@ local function MBETEH_fake_script() -- Button_7.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(MBETEH_fake_script)()
-local function KCQDODK_fake_script() -- Button_7.TABLE 
+coroutine.wrap(ONOVC_fake_script)()
+local function TDGXSZV_fake_script() -- Button_7.TABLE 
 	local script = Instance.new('LocalScript', Button_7)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1756,8 +1755,8 @@ local function KCQDODK_fake_script() -- Button_7.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KCQDODK_fake_script)()
-local function MJMS_fake_script() -- Button_7.METAB SCRIPT 
+coroutine.wrap(TDGXSZV_fake_script)()
+local function BOOTHBI_fake_script() -- Button_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_7)
 
 	toggle = false
@@ -1814,8 +1813,8 @@ local function MJMS_fake_script() -- Button_7.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(MJMS_fake_script)()
-local function GCET_fake_script() -- Button_8.ANIMATION 
+coroutine.wrap(BOOTHBI_fake_script)()
+local function CNMVFND_fake_script() -- Button_8.ANIMATION 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local btn = script.Parent
@@ -1858,8 +1857,8 @@ local function GCET_fake_script() -- Button_8.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(GCET_fake_script)()
-local function DTLUK_fake_script() -- Button_8.TABLE 
+coroutine.wrap(CNMVFND_fake_script)()
+local function NMSQWW_fake_script() -- Button_8.TABLE 
 	local script = Instance.new('LocalScript', Button_8)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1870,8 +1869,8 @@ local function DTLUK_fake_script() -- Button_8.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(DTLUK_fake_script)()
-local function KYPUP_fake_script() -- Button_8.METAB SCRIPT 
+coroutine.wrap(NMSQWW_fake_script)()
+local function WJCJ_fake_script() -- Button_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_8)
 
 	toggle = false
@@ -1918,8 +1917,8 @@ local function KYPUP_fake_script() -- Button_8.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(KYPUP_fake_script)()
-local function SCHQVEN_fake_script() -- Button_9.ANIMATION 
+coroutine.wrap(WJCJ_fake_script)()
+local function EGTO_fake_script() -- Button_9.ANIMATION 
 	local script = Instance.new('LocalScript', Button_9)
 
 	local btn = script.Parent
@@ -1962,8 +1961,8 @@ local function SCHQVEN_fake_script() -- Button_9.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(SCHQVEN_fake_script)()
-local function RTTQX_fake_script() -- Button_9.TABLE 
+coroutine.wrap(EGTO_fake_script)()
+local function SXJZY_fake_script() -- Button_9.TABLE 
 	local script = Instance.new('LocalScript', Button_9)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1974,25 +1973,24 @@ local function RTTQX_fake_script() -- Button_9.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RTTQX_fake_script)()
-local function FHJMRD_fake_script() -- Button_9.METAB SCRIPT 
+coroutine.wrap(SXJZY_fake_script)()
+local function MVON_fake_script() -- Button_9.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_9)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
+	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_1"].Prompt.CFrame
 	
 	
-	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(FHJMRD_fake_script)()
-local function FESU_fake_script() -- Button_10.ANIMATION 
+coroutine.wrap(MVON_fake_script)()
+local function JQEZBAS_fake_script() -- Button_10.ANIMATION 
 	local script = Instance.new('LocalScript', Button_10)
 
 	local btn = script.Parent
@@ -2035,8 +2033,8 @@ local function FESU_fake_script() -- Button_10.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(FESU_fake_script)()
-local function XZHN_fake_script() -- Button_10.TABLE 
+coroutine.wrap(JQEZBAS_fake_script)()
+local function ZSIBBAD_fake_script() -- Button_10.TABLE 
 	local script = Instance.new('LocalScript', Button_10)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2047,25 +2045,25 @@ local function XZHN_fake_script() -- Button_10.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XZHN_fake_script)()
-local function VVOY_fake_script() -- Button_10.METAB SCRIPT 
+coroutine.wrap(ZSIBBAD_fake_script)()
+local function NMPTYSI_fake_script() -- Button_10.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_10)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
+	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_2"].Prompt.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(VVOY_fake_script)()
-local function AVQTXU_fake_script() -- Button_11.ANIMATION 
+coroutine.wrap(NMPTYSI_fake_script)()
+local function QLHF_fake_script() -- Button_11.ANIMATION 
 	local script = Instance.new('LocalScript', Button_11)
 
 	local btn = script.Parent
@@ -2108,8 +2106,8 @@ local function AVQTXU_fake_script() -- Button_11.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(AVQTXU_fake_script)()
-local function MMFCEQC_fake_script() -- Button_11.TABLE 
+coroutine.wrap(QLHF_fake_script)()
+local function UVDFR_fake_script() -- Button_11.TABLE 
 	local script = Instance.new('LocalScript', Button_11)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2120,25 +2118,25 @@ local function MMFCEQC_fake_script() -- Button_11.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MMFCEQC_fake_script)()
-local function MMPVM_fake_script() -- Button_11.METAB SCRIPT 
+coroutine.wrap(UVDFR_fake_script)()
+local function JMVXRQQ_fake_script() -- Button_11.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_11)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
+	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_3"].Prompt.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(MMPVM_fake_script)()
-local function BNIQMRU_fake_script() -- Button_12.ANIMATION 
+coroutine.wrap(JMVXRQQ_fake_script)()
+local function FWXWPAU_fake_script() -- Button_12.ANIMATION 
 	local script = Instance.new('LocalScript', Button_12)
 
 	local btn = script.Parent
@@ -2181,8 +2179,8 @@ local function BNIQMRU_fake_script() -- Button_12.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(BNIQMRU_fake_script)()
-local function QTIPTT_fake_script() -- Button_12.TABLE 
+coroutine.wrap(FWXWPAU_fake_script)()
+local function EONA_fake_script() -- Button_12.TABLE 
 	local script = Instance.new('LocalScript', Button_12)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2193,25 +2191,25 @@ local function QTIPTT_fake_script() -- Button_12.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(QTIPTT_fake_script)()
-local function LRYK_fake_script() -- Button_12.METAB SCRIPT 
+coroutine.wrap(EONA_fake_script)()
+local function JAHS_fake_script() -- Button_12.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_12)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
+	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_4"].Prompt.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(LRYK_fake_script)()
-local function UJAURP_fake_script() -- Button_13.ANIMATION 
+coroutine.wrap(JAHS_fake_script)()
+local function QCHEVST_fake_script() -- Button_13.ANIMATION 
 	local script = Instance.new('LocalScript', Button_13)
 
 	local btn = script.Parent
@@ -2254,8 +2252,8 @@ local function UJAURP_fake_script() -- Button_13.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(UJAURP_fake_script)()
-local function XLGVN_fake_script() -- Button_13.TABLE 
+coroutine.wrap(QCHEVST_fake_script)()
+local function JXUWA_fake_script() -- Button_13.TABLE 
 	local script = Instance.new('LocalScript', Button_13)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2266,25 +2264,25 @@ local function XLGVN_fake_script() -- Button_13.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XLGVN_fake_script)()
-local function LYUS_fake_script() -- Button_13.METAB SCRIPT 
+coroutine.wrap(JXUWA_fake_script)()
+local function YZWWT_fake_script() -- Button_13.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_13)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
+	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_1"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(LYUS_fake_script)()
-local function FBQY_fake_script() -- Button_14.ANIMATION 
+coroutine.wrap(YZWWT_fake_script)()
+local function EZAEDQJ_fake_script() -- Button_14.ANIMATION 
 	local script = Instance.new('LocalScript', Button_14)
 
 	local btn = script.Parent
@@ -2327,8 +2325,8 @@ local function FBQY_fake_script() -- Button_14.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(FBQY_fake_script)()
-local function DKGZ_fake_script() -- Button_14.TABLE 
+coroutine.wrap(EZAEDQJ_fake_script)()
+local function ZIHLOY_fake_script() -- Button_14.TABLE 
 	local script = Instance.new('LocalScript', Button_14)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2339,25 +2337,24 @@ local function DKGZ_fake_script() -- Button_14.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(DKGZ_fake_script)()
-local function FLMIM_fake_script() -- Button_14.METAB SCRIPT 
+coroutine.wrap(ZIHLOY_fake_script)()
+local function SEBF_fake_script() -- Button_14.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_14)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_2"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(FLMIM_fake_script)()
-local function GZGJ_fake_script() -- Button_15.ANIMATION 
+coroutine.wrap(SEBF_fake_script)()
+local function XOQIUCB_fake_script() -- Button_15.ANIMATION 
 	local script = Instance.new('LocalScript', Button_15)
 
 	local btn = script.Parent
@@ -2400,8 +2397,8 @@ local function GZGJ_fake_script() -- Button_15.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(GZGJ_fake_script)()
-local function XITBQTP_fake_script() -- Button_15.TABLE 
+coroutine.wrap(XOQIUCB_fake_script)()
+local function WUFX_fake_script() -- Button_15.TABLE 
 	local script = Instance.new('LocalScript', Button_15)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2412,25 +2409,24 @@ local function XITBQTP_fake_script() -- Button_15.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XITBQTP_fake_script)()
-local function VAHSCK_fake_script() -- Button_15.METAB SCRIPT 
+coroutine.wrap(WUFX_fake_script)()
+local function KYSC_fake_script() -- Button_15.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_15)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_3"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(VAHSCK_fake_script)()
-local function SNUVTK_fake_script() -- Button_16.ANIMATION 
+coroutine.wrap(KYSC_fake_script)()
+local function MZQNPP_fake_script() -- Button_16.ANIMATION 
 	local script = Instance.new('LocalScript', Button_16)
 
 	local btn = script.Parent
@@ -2473,8 +2469,8 @@ local function SNUVTK_fake_script() -- Button_16.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(SNUVTK_fake_script)()
-local function OCYW_fake_script() -- Button_16.TABLE 
+coroutine.wrap(MZQNPP_fake_script)()
+local function FWSM_fake_script() -- Button_16.TABLE 
 	local script = Instance.new('LocalScript', Button_16)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2485,25 +2481,24 @@ local function OCYW_fake_script() -- Button_16.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(OCYW_fake_script)()
-local function OTUX_fake_script() -- Button_16.METAB SCRIPT 
+coroutine.wrap(FWSM_fake_script)()
+local function KOFAB_fake_script() -- Button_16.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_16)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_4"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(OTUX_fake_script)()
-local function FTRLU_fake_script() -- Button_17.ANIMATION 
+coroutine.wrap(KOFAB_fake_script)()
+local function NQPHNI_fake_script() -- Button_17.ANIMATION 
 	local script = Instance.new('LocalScript', Button_17)
 
 	local btn = script.Parent
@@ -2546,8 +2541,8 @@ local function FTRLU_fake_script() -- Button_17.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(FTRLU_fake_script)()
-local function TMYT_fake_script() -- Button_17.TABLE 
+coroutine.wrap(NQPHNI_fake_script)()
+local function QTOEVNF_fake_script() -- Button_17.TABLE 
 	local script = Instance.new('LocalScript', Button_17)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2558,25 +2553,24 @@ local function TMYT_fake_script() -- Button_17.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(TMYT_fake_script)()
-local function UKSGU_fake_script() -- Button_17.METAB SCRIPT 
+coroutine.wrap(QTOEVNF_fake_script)()
+local function OSWEGCI_fake_script() -- Button_17.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_17)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_1"].Root.CFrame
-	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_5"].Root.CFrame
 	
 	
-	end
+	
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(UKSGU_fake_script)()
-local function DSMXWW_fake_script() -- Button_18.ANIMATION 
+coroutine.wrap(OSWEGCI_fake_script)()
+local function OHZMPBI_fake_script() -- Button_18.ANIMATION 
 	local script = Instance.new('LocalScript', Button_18)
 
 	local btn = script.Parent
@@ -2619,8 +2613,8 @@ local function DSMXWW_fake_script() -- Button_18.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(DSMXWW_fake_script)()
-local function PUZKMV_fake_script() -- Button_18.TABLE 
+coroutine.wrap(OHZMPBI_fake_script)()
+local function HCNMAUD_fake_script() -- Button_18.TABLE 
 	local script = Instance.new('LocalScript', Button_18)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2631,25 +2625,24 @@ local function PUZKMV_fake_script() -- Button_18.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(PUZKMV_fake_script)()
-local function HGDSDU_fake_script() -- Button_18.METAB SCRIPT 
+coroutine.wrap(HCNMAUD_fake_script)()
+local function MBQNC_fake_script() -- Button_18.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_18)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_2"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(HGDSDU_fake_script)()
-local function YPUXI_fake_script() -- Button_19.ANIMATION 
+coroutine.wrap(MBQNC_fake_script)()
+local function XFAKJP_fake_script() -- Button_19.ANIMATION 
 	local script = Instance.new('LocalScript', Button_19)
 
 	local btn = script.Parent
@@ -2692,8 +2685,8 @@ local function YPUXI_fake_script() -- Button_19.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(YPUXI_fake_script)()
-local function VHMUJJ_fake_script() -- Button_19.TABLE 
+coroutine.wrap(XFAKJP_fake_script)()
+local function IZBNBB_fake_script() -- Button_19.TABLE 
 	local script = Instance.new('LocalScript', Button_19)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2704,25 +2697,24 @@ local function VHMUJJ_fake_script() -- Button_19.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VHMUJJ_fake_script)()
-local function ATKOS_fake_script() -- Button_19.METAB SCRIPT 
+coroutine.wrap(IZBNBB_fake_script)()
+local function MTKF_fake_script() -- Button_19.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_19)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_3"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(ATKOS_fake_script)()
-local function HPKQ_fake_script() -- Button_20.ANIMATION 
+coroutine.wrap(MTKF_fake_script)()
+local function BIOGO_fake_script() -- Button_20.ANIMATION 
 	local script = Instance.new('LocalScript', Button_20)
 
 	local btn = script.Parent
@@ -2765,8 +2757,8 @@ local function HPKQ_fake_script() -- Button_20.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(HPKQ_fake_script)()
-local function XKQN_fake_script() -- Button_20.TABLE 
+coroutine.wrap(BIOGO_fake_script)()
+local function HQQUJKV_fake_script() -- Button_20.TABLE 
 	local script = Instance.new('LocalScript', Button_20)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2777,25 +2769,24 @@ local function XKQN_fake_script() -- Button_20.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XKQN_fake_script)()
-local function KFQQOPT_fake_script() -- Button_20.METAB SCRIPT 
+coroutine.wrap(HQQUJKV_fake_script)()
+local function RSLRNOF_fake_script() -- Button_20.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_20)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_4"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(KFQQOPT_fake_script)()
-local function XWMW_fake_script() -- Button_21.ANIMATION 
+coroutine.wrap(RSLRNOF_fake_script)()
+local function GZVLCLA_fake_script() -- Button_21.ANIMATION 
 	local script = Instance.new('LocalScript', Button_21)
 
 	local btn = script.Parent
@@ -2838,8 +2829,8 @@ local function XWMW_fake_script() -- Button_21.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(XWMW_fake_script)()
-local function NFZUHR_fake_script() -- Button_21.TABLE 
+coroutine.wrap(GZVLCLA_fake_script)()
+local function HKGIOF_fake_script() -- Button_21.TABLE 
 	local script = Instance.new('LocalScript', Button_21)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2850,25 +2841,24 @@ local function NFZUHR_fake_script() -- Button_21.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(NFZUHR_fake_script)()
-local function FOTE_fake_script() -- Button_21.METAB SCRIPT 
+coroutine.wrap(HKGIOF_fake_script)()
+local function MBJBXK_fake_script() -- Button_21.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_21)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_4"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(FOTE_fake_script)()
-local function ZYTPYJB_fake_script() -- Button_22.ANIMATION 
+coroutine.wrap(MBJBXK_fake_script)()
+local function TAPLH_fake_script() -- Button_22.ANIMATION 
 	local script = Instance.new('LocalScript', Button_22)
 
 	local btn = script.Parent
@@ -2911,8 +2901,8 @@ local function ZYTPYJB_fake_script() -- Button_22.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(ZYTPYJB_fake_script)()
-local function HRAA_fake_script() -- Button_22.TABLE 
+coroutine.wrap(TAPLH_fake_script)()
+local function ZGFYGTT_fake_script() -- Button_22.TABLE 
 	local script = Instance.new('LocalScript', Button_22)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2923,25 +2913,24 @@ local function HRAA_fake_script() -- Button_22.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(HRAA_fake_script)()
-local function DTXJDJF_fake_script() -- Button_22.METAB SCRIPT 
+coroutine.wrap(ZGFYGTT_fake_script)()
+local function UJJHHZX_fake_script() -- Button_22.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_22)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_2"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(DTXJDJF_fake_script)()
-local function HGOVJV_fake_script() -- Button_23.ANIMATION 
+coroutine.wrap(UJJHHZX_fake_script)()
+local function TKBZPI_fake_script() -- Button_23.ANIMATION 
 	local script = Instance.new('LocalScript', Button_23)
 
 	local btn = script.Parent
@@ -2984,8 +2973,8 @@ local function HGOVJV_fake_script() -- Button_23.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(HGOVJV_fake_script)()
-local function IXJRYF_fake_script() -- Button_23.TABLE 
+coroutine.wrap(TKBZPI_fake_script)()
+local function QJEIGAC_fake_script() -- Button_23.TABLE 
 	local script = Instance.new('LocalScript', Button_23)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2996,25 +2985,24 @@ local function IXJRYF_fake_script() -- Button_23.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(IXJRYF_fake_script)()
-local function JAQHP_fake_script() -- Button_23.METAB SCRIPT 
+coroutine.wrap(QJEIGAC_fake_script)()
+local function LQHJ_fake_script() -- Button_23.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_23)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_3"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(JAQHP_fake_script)()
-local function VHZOSY_fake_script() -- Button_24.ANIMATION 
+coroutine.wrap(LQHJ_fake_script)()
+local function DCJZ_fake_script() -- Button_24.ANIMATION 
 	local script = Instance.new('LocalScript', Button_24)
 
 	local btn = script.Parent
@@ -3057,8 +3045,8 @@ local function VHZOSY_fake_script() -- Button_24.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(VHZOSY_fake_script)()
-local function FYIC_fake_script() -- Button_24.TABLE 
+coroutine.wrap(DCJZ_fake_script)()
+local function NNMR_fake_script() -- Button_24.TABLE 
 	local script = Instance.new('LocalScript', Button_24)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3069,25 +3057,24 @@ local function FYIC_fake_script() -- Button_24.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(FYIC_fake_script)()
-local function FJRTUT_fake_script() -- Button_24.METAB SCRIPT 
+coroutine.wrap(NNMR_fake_script)()
+local function GMEQ_fake_script() -- Button_24.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_24)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_1"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(FJRTUT_fake_script)()
-local function XDPXZ_fake_script() -- Button_25.ANIMATION 
+coroutine.wrap(GMEQ_fake_script)()
+local function BHFHZ_fake_script() -- Button_25.ANIMATION 
 	local script = Instance.new('LocalScript', Button_25)
 
 	local btn = script.Parent
@@ -3130,8 +3117,8 @@ local function XDPXZ_fake_script() -- Button_25.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(XDPXZ_fake_script)()
-local function APCW_fake_script() -- Button_25.TABLE 
+coroutine.wrap(BHFHZ_fake_script)()
+local function BHGZ_fake_script() -- Button_25.TABLE 
 	local script = Instance.new('LocalScript', Button_25)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -3142,33 +3129,32 @@ local function APCW_fake_script() -- Button_25.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(APCW_fake_script)()
-local function BUTUM_fake_script() -- Button_25.METAB SCRIPT 
+coroutine.wrap(BHGZ_fake_script)()
+local function MEIZGOZ_fake_script() -- Button_25.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_25)
 
-	local clickDetector = workspace.Button.ClickDetector
+	script.Parent.MouseButton1Click:Connect(function()
 	
-	function onMouseClick()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_5"].Root.CFrame
 	
 	
 	
-	end
+	end)
 	
 	
 	
 	
 end
-coroutine.wrap(BUTUM_fake_script)()
-local function OLHPQ_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(MEIZGOZ_fake_script)()
+local function AQXCJ_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OLHPQ_fake_script)()
-local function IKDYM_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(AQXCJ_fake_script)()
+local function XKAFT_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -3211,8 +3197,8 @@ local function IKDYM_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(IKDYM_fake_script)()
-local function JMDZE_fake_script() -- ImageLabel.DEPLACE  
+coroutine.wrap(XKAFT_fake_script)()
+local function LNTBAFH_fake_script() -- ImageLabel.DEPLACE  
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -3290,4 +3276,4 @@ local function JMDZE_fake_script() -- ImageLabel.DEPLACE
 	
 	
 end
-coroutine.wrap(JMDZE_fake_script)()
+coroutine.wrap(LNTBAFH_fake_script)()
