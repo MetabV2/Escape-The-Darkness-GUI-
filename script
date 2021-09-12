@@ -1,4 +1,4 @@
---BY METAB 
+
 local METABGUI = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local Button7ColourSwipe = Instance.new("ImageButton")
@@ -220,7 +220,6 @@ HOMEFRAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HOMEFRAME.BackgroundTransparency = 1.000
 HOMEFRAME.Position = UDim2.new(0.323545516, 0, 0.108492598, 0)
 HOMEFRAME.Size = UDim2.new(0, 410, 0, 307)
-HOMEFRAME.Visible = false
 
 TextLabel.Parent = HOMEFRAME
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -329,6 +328,7 @@ MISCFRAME.BackgroundTransparency = 1.000
 MISCFRAME.BorderColor3 = Color3.fromRGB(27, 42, 53)
 MISCFRAME.Position = UDim2.new(0.324000001, 0, 0.108000003, 0)
 MISCFRAME.Size = UDim2.new(0, 410, 0, 307)
+MISCFRAME.Visible = false
 
 Button_2.Name = "Button "
 Button_2.Parent = MISCFRAME
@@ -602,7 +602,7 @@ TPFRAME.Visible = false
 
 -- Scripts:
 
-local function KDCDCN_fake_script() -- Button7ColourSwipe.Button7Script 
+local function GWPZW_fake_script() -- Button7ColourSwipe.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	local btn = script.Parent
@@ -645,8 +645,8 @@ local function KDCDCN_fake_script() -- Button7ColourSwipe.Button7Script
 		end
 	end)
 end
-coroutine.wrap(KDCDCN_fake_script)()
-local function WBBYSH_fake_script() -- Button7ColourSwipe.LocalScript 
+coroutine.wrap(GWPZW_fake_script)()
+local function DNGCCXU_fake_script() -- Button7ColourSwipe.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -657,8 +657,8 @@ local function WBBYSH_fake_script() -- Button7ColourSwipe.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WBBYSH_fake_script)()
-local function YBLSMO_fake_script() -- Button7ColourSwipe_2.Button7Script 
+coroutine.wrap(DNGCCXU_fake_script)()
+local function SVVNZ_fake_script() -- Button7ColourSwipe_2.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	local btn = script.Parent
@@ -701,8 +701,8 @@ local function YBLSMO_fake_script() -- Button7ColourSwipe_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(YBLSMO_fake_script)()
-local function SCBGNYD_fake_script() -- Button7ColourSwipe_2.LocalScript 
+coroutine.wrap(SVVNZ_fake_script)()
+local function GVFX_fake_script() -- Button7ColourSwipe_2.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -713,8 +713,8 @@ local function SCBGNYD_fake_script() -- Button7ColourSwipe_2.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SCBGNYD_fake_script)()
-local function FJOMLNB_fake_script() -- Button7ColourSwipe_3.Button7Script 
+coroutine.wrap(GVFX_fake_script)()
+local function WICLT_fake_script() -- Button7ColourSwipe_3.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	local btn = script.Parent
@@ -757,8 +757,8 @@ local function FJOMLNB_fake_script() -- Button7ColourSwipe_3.Button7Script
 		end
 	end)
 end
-coroutine.wrap(FJOMLNB_fake_script)()
-local function WDYWIPK_fake_script() -- Button7ColourSwipe_3.LocalScript 
+coroutine.wrap(WICLT_fake_script)()
+local function LTLAZU_fake_script() -- Button7ColourSwipe_3.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -769,8 +769,8 @@ local function WDYWIPK_fake_script() -- Button7ColourSwipe_3.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WDYWIPK_fake_script)()
-local function LUPNDNY_fake_script() -- Button7ColourSwipe_4.Button7Script 
+coroutine.wrap(LTLAZU_fake_script)()
+local function RQYRSUG_fake_script() -- Button7ColourSwipe_4.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	local btn = script.Parent
@@ -813,8 +813,8 @@ local function LUPNDNY_fake_script() -- Button7ColourSwipe_4.Button7Script
 		end
 	end)
 end
-coroutine.wrap(LUPNDNY_fake_script)()
-local function VNXTM_fake_script() -- Button7ColourSwipe_4.LocalScript 
+coroutine.wrap(RQYRSUG_fake_script)()
+local function QYWZQDM_fake_script() -- Button7ColourSwipe_4.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -825,8 +825,8 @@ local function VNXTM_fake_script() -- Button7ColourSwipe_4.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VNXTM_fake_script)()
-local function AFHKYD_fake_script() -- Button.ANIMATION 
+coroutine.wrap(QYWZQDM_fake_script)()
+local function NBMCG_fake_script() -- Button.ANIMATION 
 	local script = Instance.new('LocalScript', Button)
 
 	local btn = script.Parent
@@ -869,8 +869,8 @@ local function AFHKYD_fake_script() -- Button.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(AFHKYD_fake_script)()
-local function ZZJOV_fake_script() -- Button.TABLE 
+coroutine.wrap(NBMCG_fake_script)()
+local function JYON_fake_script() -- Button.TABLE 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -881,8 +881,8 @@ local function ZZJOV_fake_script() -- Button.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(ZZJOV_fake_script)()
-local function EXMSDPF_fake_script() -- Button.METAB SCRIPT 
+coroutine.wrap(JYON_fake_script)()
+local function WOIFDA_fake_script() -- Button.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -895,16 +895,16 @@ local function EXMSDPF_fake_script() -- Button.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(EXMSDPF_fake_script)()
-local function JVED_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(WOIFDA_fake_script)()
+local function KTRT_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(JVED_fake_script)()
-local function FIFSX_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(KTRT_fake_script)()
+local function NKWOMJ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -947,8 +947,8 @@ local function FIFSX_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(FIFSX_fake_script)()
-local function NOHH_fake_script() -- ImageLabel.DEPLACE  
+coroutine.wrap(NKWOMJ_fake_script)()
+local function VKYZLEZ_fake_script() -- ImageLabel.DEPLACE  
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -1026,8 +1026,8 @@ local function NOHH_fake_script() -- ImageLabel.DEPLACE
 	
 	
 end
-coroutine.wrap(NOHH_fake_script)()
-local function IEPP_fake_script() -- Button_2.ANIMATION 
+coroutine.wrap(VKYZLEZ_fake_script)()
+local function TPKASZM_fake_script() -- Button_2.ANIMATION 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local btn = script.Parent
@@ -1070,8 +1070,8 @@ local function IEPP_fake_script() -- Button_2.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(IEPP_fake_script)()
-local function KKXAFY_fake_script() -- Button_2.TABLE 
+coroutine.wrap(TPKASZM_fake_script)()
+local function RBMAVDX_fake_script() -- Button_2.TABLE 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1082,8 +1082,8 @@ local function KKXAFY_fake_script() -- Button_2.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KKXAFY_fake_script)()
-local function OZSLOQ_fake_script() -- Button_2.METAB SCRIPT 
+coroutine.wrap(RBMAVDX_fake_script)()
+local function NSOIHJ_fake_script() -- Button_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_2)
 
 	
@@ -1142,8 +1142,8 @@ local function OZSLOQ_fake_script() -- Button_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(OZSLOQ_fake_script)()
-local function BUSPDM_fake_script() -- Button_3.ANIMATION 
+coroutine.wrap(NSOIHJ_fake_script)()
+local function IWIZ_fake_script() -- Button_3.ANIMATION 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local btn = script.Parent
@@ -1186,8 +1186,8 @@ local function BUSPDM_fake_script() -- Button_3.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(BUSPDM_fake_script)()
-local function LYXI_fake_script() -- Button_3.TABLE 
+coroutine.wrap(IWIZ_fake_script)()
+local function LWQDQ_fake_script() -- Button_3.TABLE 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1198,8 +1198,8 @@ local function LYXI_fake_script() -- Button_3.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(LYXI_fake_script)()
-local function HFONSY_fake_script() -- Button_3.METAB SCRIPT 
+coroutine.wrap(LWQDQ_fake_script)()
+local function HZPNR_fake_script() -- Button_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_3)
 
 	
@@ -1258,8 +1258,8 @@ local function HFONSY_fake_script() -- Button_3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(HFONSY_fake_script)()
-local function TZQN_fake_script() -- Button_4.ANIMATION 
+coroutine.wrap(HZPNR_fake_script)()
+local function MNFL_fake_script() -- Button_4.ANIMATION 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local btn = script.Parent
@@ -1302,8 +1302,8 @@ local function TZQN_fake_script() -- Button_4.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(TZQN_fake_script)()
-local function AQEGZB_fake_script() -- Button_4.TABLE 
+coroutine.wrap(MNFL_fake_script)()
+local function QBRIRC_fake_script() -- Button_4.TABLE 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1314,8 +1314,8 @@ local function AQEGZB_fake_script() -- Button_4.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(AQEGZB_fake_script)()
-local function LHVDYGK_fake_script() -- Button_5.ANIMATION 
+coroutine.wrap(QBRIRC_fake_script)()
+local function NSVPNCH_fake_script() -- Button_5.ANIMATION 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local btn = script.Parent
@@ -1358,8 +1358,8 @@ local function LHVDYGK_fake_script() -- Button_5.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(LHVDYGK_fake_script)()
-local function GQCSSQ_fake_script() -- Button_5.TABLE 
+coroutine.wrap(NSVPNCH_fake_script)()
+local function HWVJT_fake_script() -- Button_5.TABLE 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1370,8 +1370,8 @@ local function GQCSSQ_fake_script() -- Button_5.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(GQCSSQ_fake_script)()
-local function ZMUJ_fake_script() -- Button_5.METAB SCRIPT 
+coroutine.wrap(HWVJT_fake_script)()
+local function MNRVBG_fake_script() -- Button_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1410,8 +1410,8 @@ local function ZMUJ_fake_script() -- Button_5.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(ZMUJ_fake_script)()
-local function BYMRTH_fake_script() -- Button_6.ANIMATION 
+coroutine.wrap(MNRVBG_fake_script)()
+local function EECR_fake_script() -- Button_6.ANIMATION 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local btn = script.Parent
@@ -1454,8 +1454,8 @@ local function BYMRTH_fake_script() -- Button_6.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(BYMRTH_fake_script)()
-local function EROAZYY_fake_script() -- Button_6.TABLE 
+coroutine.wrap(EECR_fake_script)()
+local function MWDJAL_fake_script() -- Button_6.TABLE 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1466,8 +1466,8 @@ local function EROAZYY_fake_script() -- Button_6.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(EROAZYY_fake_script)()
-local function BTKFC_fake_script() -- Button_6.METAB SCRIPT 
+coroutine.wrap(MWDJAL_fake_script)()
+local function UHWUEQL_fake_script() -- Button_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1495,8 +1495,8 @@ local function BTKFC_fake_script() -- Button_6.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(BTKFC_fake_script)()
-local function IQQRN_fake_script() -- Button_7.ANIMATION 
+coroutine.wrap(UHWUEQL_fake_script)()
+local function NKNWXXE_fake_script() -- Button_7.ANIMATION 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local btn = script.Parent
@@ -1539,8 +1539,8 @@ local function IQQRN_fake_script() -- Button_7.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(IQQRN_fake_script)()
-local function CTOXGM_fake_script() -- Button_7.TABLE 
+coroutine.wrap(NKNWXXE_fake_script)()
+local function NMOV_fake_script() -- Button_7.TABLE 
 	local script = Instance.new('LocalScript', Button_7)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1551,8 +1551,8 @@ local function CTOXGM_fake_script() -- Button_7.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(CTOXGM_fake_script)()
-local function OIDG_fake_script() -- Button_7.METAB SCRIPT 
+coroutine.wrap(NMOV_fake_script)()
+local function WDYBC_fake_script() -- Button_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_7)
 
 	
@@ -1611,8 +1611,8 @@ local function OIDG_fake_script() -- Button_7.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(OIDG_fake_script)()
-local function LORGX_fake_script() -- Button_8.METAB SCRIPT 
+coroutine.wrap(WDYBC_fake_script)()
+local function TUHESE_fake_script() -- Button_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_8)
 
 	
@@ -1671,8 +1671,8 @@ local function LORGX_fake_script() -- Button_8.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(LORGX_fake_script)()
-local function ZSBOT_fake_script() -- Button_8.TABLE 
+coroutine.wrap(TUHESE_fake_script)()
+local function GITMK_fake_script() -- Button_8.TABLE 
 	local script = Instance.new('LocalScript', Button_8)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1683,8 +1683,8 @@ local function ZSBOT_fake_script() -- Button_8.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(ZSBOT_fake_script)()
-local function GRBJHWW_fake_script() -- Button_8.ANIMATION 
+coroutine.wrap(GITMK_fake_script)()
+local function QHLN_fake_script() -- Button_8.ANIMATION 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local btn = script.Parent
@@ -1727,4 +1727,4 @@ local function GRBJHWW_fake_script() -- Button_8.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(GRBJHWW_fake_script)()
+coroutine.wrap(QHLN_fake_script)()
