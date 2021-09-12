@@ -1,4 +1,5 @@
 
+
 local METABGUI = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local Button7ColourSwipe = Instance.new("ImageButton")
@@ -61,82 +62,10 @@ local UIGradient_13 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
 local BtnText_13 = Instance.new("TextLabel")
 local TPFRAME = Instance.new("Frame")
-local Button_9 = Instance.new("ImageButton")
-local UIGradient_14 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
-local BtnText_14 = Instance.new("TextLabel")
-local Button_10 = Instance.new("ImageButton")
-local UIGradient_15 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
-local BtnText_15 = Instance.new("TextLabel")
-local Button_11 = Instance.new("ImageButton")
-local UIGradient_16 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
-local BtnText_16 = Instance.new("TextLabel")
-local Button_12 = Instance.new("ImageButton")
-local UIGradient_17 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
-local BtnText_17 = Instance.new("TextLabel")
-local Button_13 = Instance.new("ImageButton")
-local UIGradient_18 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
-local BtnText_18 = Instance.new("TextLabel")
-local Button_14 = Instance.new("ImageButton")
-local UIGradient_19 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
-local BtnText_19 = Instance.new("TextLabel")
-local Button_15 = Instance.new("ImageButton")
-local UIGradient_20 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
-local BtnText_20 = Instance.new("TextLabel")
-local Button_16 = Instance.new("ImageButton")
-local UIGradient_21 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
-local BtnText_21 = Instance.new("TextLabel")
-local Button_17 = Instance.new("ImageButton")
-local UIGradient_22 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
-local BtnText_22 = Instance.new("TextLabel")
-local Button_18 = Instance.new("ImageButton")
-local UIGradient_23 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
-local BtnText_23 = Instance.new("TextLabel")
-local Button_19 = Instance.new("ImageButton")
-local UIGradient_24 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
-local BtnText_24 = Instance.new("TextLabel")
-local Button_20 = Instance.new("ImageButton")
-local UIGradient_25 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
-local BtnText_25 = Instance.new("TextLabel")
-local Button_21 = Instance.new("ImageButton")
-local UIGradient_26 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
-local BtnText_26 = Instance.new("TextLabel")
-local Button_22 = Instance.new("ImageButton")
-local UIGradient_27 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
-local BtnText_27 = Instance.new("TextLabel")
-local Button_23 = Instance.new("ImageButton")
-local UIGradient_28 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
-local BtnText_28 = Instance.new("TextLabel")
-local Button_24 = Instance.new("ImageButton")
-local UIGradient_29 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
-local BtnText_29 = Instance.new("TextLabel")
-local Button_25 = Instance.new("ImageButton")
-local UIGradient_30 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
-local BtnText_30 = Instance.new("TextLabel")
-local Button_26 = Instance.new("ImageButton")
-local UIGradient_31 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
-local BtnText_31 = Instance.new("TextLabel")
 
 --Properties:
 
-METABGUI.Name = "METAB GUI "
+METABGUI.Name = "METABGUI "
 METABGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 METABGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -672,639 +601,9 @@ TPFRAME.Position = UDim2.new(0.324000001, 0, 0.108000003, 0)
 TPFRAME.Size = UDim2.new(0, 410, 0, 307)
 TPFRAME.Visible = false
 
-Button_9.Name = "Button "
-Button_9.Parent = TPFRAME
-Button_9.AnchorPoint = Vector2.new(1, 1)
-Button_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_9.BackgroundTransparency = 1.000
-Button_9.Position = UDim2.new(0.477951109, 0, 0.147428721, 0)
-Button_9.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_9.Image = "rbxassetid://2790382281"
-Button_9.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_9.ScaleType = Enum.ScaleType.Slice
-Button_9.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_14.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_14.Rotation = -135
-UIGradient_14.Parent = Button_9
-
-UIAspectRatioConstraint_14.Parent = Button_9
-UIAspectRatioConstraint_14.AspectRatio = 7.000
-
-BtnText_14.Name = "BtnText"
-BtnText_14.Parent = Button_9
-BtnText_14.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_14.BackgroundTransparency = 1.000
-BtnText_14.BorderSizePixel = 0
-BtnText_14.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_14.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_14.Font = Enum.Font.GothamBlack
-BtnText_14.Text = "EXIT BUNKER"
-BtnText_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_14.TextScaled = true
-BtnText_14.TextSize = 14.000
-BtnText_14.TextWrapped = true
-
-Button_10.Name = "Button "
-Button_10.Parent = TPFRAME
-Button_10.AnchorPoint = Vector2.new(1, 1)
-Button_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_10.BackgroundTransparency = 1.000
-Button_10.Position = UDim2.new(0.478318214, 0, 0.544234812, 0)
-Button_10.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_10.Image = "rbxassetid://2790382281"
-Button_10.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_10.ScaleType = Enum.ScaleType.Slice
-Button_10.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_15.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_15.Rotation = -135
-UIGradient_15.Parent = Button_10
-
-UIAspectRatioConstraint_15.Parent = Button_10
-UIAspectRatioConstraint_15.AspectRatio = 7.000
-
-BtnText_15.Name = "BtnText"
-BtnText_15.Parent = Button_10
-BtnText_15.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_15.BackgroundTransparency = 1.000
-BtnText_15.BorderSizePixel = 0
-BtnText_15.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_15.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_15.Font = Enum.Font.GothamBlack
-BtnText_15.Text = "Fusebox4"
-BtnText_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_15.TextScaled = true
-BtnText_15.TextSize = 14.000
-BtnText_15.TextWrapped = true
-
-Button_11.Name = "Button "
-Button_11.Parent = TPFRAME
-Button_11.AnchorPoint = Vector2.new(1, 1)
-Button_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_11.BackgroundTransparency = 1.000
-Button_11.Position = UDim2.new(0.478318214, 0, 0.445350498, 0)
-Button_11.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_11.Image = "rbxassetid://2790382281"
-Button_11.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_11.ScaleType = Enum.ScaleType.Slice
-Button_11.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_16.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_16.Rotation = -135
-UIGradient_16.Parent = Button_11
-
-UIAspectRatioConstraint_16.Parent = Button_11
-UIAspectRatioConstraint_16.AspectRatio = 7.000
-
-BtnText_16.Name = "BtnText"
-BtnText_16.Parent = Button_11
-BtnText_16.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_16.BackgroundTransparency = 1.000
-BtnText_16.BorderSizePixel = 0
-BtnText_16.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_16.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_16.Font = Enum.Font.GothamBlack
-BtnText_16.Text = "Fusebox3"
-BtnText_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_16.TextScaled = true
-BtnText_16.TextSize = 14.000
-BtnText_16.TextWrapped = true
-
-Button_12.Name = "Button "
-Button_12.Parent = TPFRAME
-Button_12.AnchorPoint = Vector2.new(1, 1)
-Button_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_12.BackgroundTransparency = 1.000
-Button_12.Position = UDim2.new(0.478318214, 0, 0.247581899, 0)
-Button_12.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_12.Image = "rbxassetid://2790382281"
-Button_12.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_12.ScaleType = Enum.ScaleType.Slice
-Button_12.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_17.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_17.Rotation = -135
-UIGradient_17.Parent = Button_12
-
-UIAspectRatioConstraint_17.Parent = Button_12
-UIAspectRatioConstraint_17.AspectRatio = 7.000
-
-BtnText_17.Name = "BtnText"
-BtnText_17.Parent = Button_12
-BtnText_17.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_17.BackgroundTransparency = 1.000
-BtnText_17.BorderSizePixel = 0
-BtnText_17.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_17.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_17.Font = Enum.Font.GothamBlack
-BtnText_17.Text = "Fusebox1"
-BtnText_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_17.TextScaled = true
-BtnText_17.TextSize = 14.000
-BtnText_17.TextWrapped = true
-
-Button_13.Name = "Button "
-Button_13.Parent = TPFRAME
-Button_13.AnchorPoint = Vector2.new(1, 1)
-Button_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_13.BackgroundTransparency = 1.000
-Button_13.Position = UDim2.new(0.478318214, 0, 0.349432737, 0)
-Button_13.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_13.Image = "rbxassetid://2790382281"
-Button_13.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_13.ScaleType = Enum.ScaleType.Slice
-Button_13.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_18.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_18.Rotation = -135
-UIGradient_18.Parent = Button_13
-
-UIAspectRatioConstraint_18.Parent = Button_13
-UIAspectRatioConstraint_18.AspectRatio = 7.000
-
-BtnText_18.Name = "BtnText"
-BtnText_18.Parent = Button_13
-BtnText_18.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_18.BackgroundTransparency = 1.000
-BtnText_18.BorderSizePixel = 0
-BtnText_18.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_18.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_18.Font = Enum.Font.GothamBlack
-BtnText_18.Text = "Fusebox2"
-BtnText_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_18.TextScaled = true
-BtnText_18.TextSize = 14.000
-BtnText_18.TextWrapped = true
-
-Button_14.Name = "Button "
-Button_14.Parent = TPFRAME
-Button_14.AnchorPoint = Vector2.new(1, 1)
-Button_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_14.BackgroundTransparency = 1.000
-Button_14.Position = UDim2.new(0.478318214, 0, 0.742003381, 0)
-Button_14.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_14.Image = "rbxassetid://2790382281"
-Button_14.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_14.ScaleType = Enum.ScaleType.Slice
-Button_14.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_19.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_19.Rotation = -135
-UIGradient_19.Parent = Button_14
-
-UIAspectRatioConstraint_19.Parent = Button_14
-UIAspectRatioConstraint_19.AspectRatio = 7.000
-
-BtnText_19.Name = "BtnText"
-BtnText_19.Parent = Button_14
-BtnText_19.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_19.BackgroundTransparency = 1.000
-BtnText_19.BorderSizePixel = 0
-BtnText_19.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_19.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_19.Font = Enum.Font.GothamBlack
-BtnText_19.Text = "GasTanks2"
-BtnText_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_19.TextScaled = true
-BtnText_19.TextSize = 14.000
-BtnText_19.TextWrapped = true
-
-Button_15.Name = "Button "
-Button_15.Parent = TPFRAME
-Button_15.AnchorPoint = Vector2.new(1, 1)
-Button_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_15.BackgroundTransparency = 1.000
-Button_15.Position = UDim2.new(0.478318214, 0, 0.643119097, 0)
-Button_15.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_15.Image = "rbxassetid://2790382281"
-Button_15.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_15.ScaleType = Enum.ScaleType.Slice
-Button_15.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_20.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_20.Rotation = -135
-UIGradient_20.Parent = Button_15
-
-UIAspectRatioConstraint_20.Parent = Button_15
-UIAspectRatioConstraint_20.AspectRatio = 7.000
-
-BtnText_20.Name = "BtnText"
-BtnText_20.Parent = Button_15
-BtnText_20.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_20.BackgroundTransparency = 1.000
-BtnText_20.BorderSizePixel = 0
-BtnText_20.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_20.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_20.Font = Enum.Font.GothamBlack
-BtnText_20.Text = "GasTanks1"
-BtnText_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_20.TextScaled = true
-BtnText_20.TextSize = 14.000
-BtnText_20.TextWrapped = true
-
-Button_16.Name = "Button "
-Button_16.Parent = TPFRAME
-Button_16.AnchorPoint = Vector2.new(1, 1)
-Button_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_16.BackgroundTransparency = 1.000
-Button_16.Position = UDim2.new(0.89597553, 0, 0.349432737, 0)
-Button_16.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_16.Image = "rbxassetid://2790382281"
-Button_16.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_16.ScaleType = Enum.ScaleType.Slice
-Button_16.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_21.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_21.Rotation = -135
-UIGradient_21.Parent = Button_16
-
-UIAspectRatioConstraint_21.Parent = Button_16
-UIAspectRatioConstraint_21.AspectRatio = 7.000
-
-BtnText_21.Name = "BtnText"
-BtnText_21.Parent = Button_16
-BtnText_21.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_21.BackgroundTransparency = 1.000
-BtnText_21.BorderSizePixel = 0
-BtnText_21.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_21.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_21.Font = Enum.Font.GothamBlack
-BtnText_21.Text = "Generators3"
-BtnText_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_21.TextScaled = true
-BtnText_21.TextSize = 14.000
-BtnText_21.TextWrapped = true
-
-Button_17.Name = "Button "
-Button_17.Parent = TPFRAME
-Button_17.AnchorPoint = Vector2.new(1, 1)
-Button_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_17.BackgroundTransparency = 1.000
-Button_17.Position = UDim2.new(0.89597553, 0, 0.250548482, 0)
-Button_17.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_17.Image = "rbxassetid://2790382281"
-Button_17.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_17.ScaleType = Enum.ScaleType.Slice
-Button_17.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_22.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_22.Rotation = -135
-UIGradient_22.Parent = Button_17
-
-UIAspectRatioConstraint_22.Parent = Button_17
-UIAspectRatioConstraint_22.AspectRatio = 7.000
-
-BtnText_22.Name = "BtnText"
-BtnText_22.Parent = Button_17
-BtnText_22.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_22.BackgroundTransparency = 1.000
-BtnText_22.BorderSizePixel = 0
-BtnText_22.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_22.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_22.Font = Enum.Font.GothamBlack
-BtnText_22.Text = "Generators2"
-BtnText_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_22.TextScaled = true
-BtnText_22.TextSize = 14.000
-BtnText_22.TextWrapped = true
-
-Button_18.Name = "Button "
-Button_18.Parent = TPFRAME
-Button_18.AnchorPoint = Vector2.new(1, 1)
-Button_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_18.BackgroundTransparency = 1.000
-Button_18.Position = UDim2.new(0.478318214, 0, 0.93977195, 0)
-Button_18.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_18.Image = "rbxassetid://2790382281"
-Button_18.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_18.ScaleType = Enum.ScaleType.Slice
-Button_18.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_23.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_23.Rotation = -135
-UIGradient_23.Parent = Button_18
-
-UIAspectRatioConstraint_23.Parent = Button_18
-UIAspectRatioConstraint_23.AspectRatio = 7.000
-
-BtnText_23.Name = "BtnText"
-BtnText_23.Parent = Button_18
-BtnText_23.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_23.BackgroundTransparency = 1.000
-BtnText_23.BorderSizePixel = 0
-BtnText_23.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_23.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_23.Font = Enum.Font.GothamBlack
-BtnText_23.Text = "GasTanks4"
-BtnText_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_23.TextScaled = true
-BtnText_23.TextSize = 14.000
-BtnText_23.TextWrapped = true
-
-Button_19.Name = "Button "
-Button_19.Parent = TPFRAME
-Button_19.AnchorPoint = Vector2.new(1, 1)
-Button_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_19.BackgroundTransparency = 1.000
-Button_19.Position = UDim2.new(0.478318214, 0, 0.840887606, 0)
-Button_19.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_19.Image = "rbxassetid://2790382281"
-Button_19.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_19.ScaleType = Enum.ScaleType.Slice
-Button_19.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_24.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_24.Rotation = -135
-UIGradient_24.Parent = Button_19
-
-UIAspectRatioConstraint_24.Parent = Button_19
-UIAspectRatioConstraint_24.AspectRatio = 7.000
-
-BtnText_24.Name = "BtnText"
-BtnText_24.Parent = Button_19
-BtnText_24.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_24.BackgroundTransparency = 1.000
-BtnText_24.BorderSizePixel = 0
-BtnText_24.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_24.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_24.Font = Enum.Font.GothamBlack
-BtnText_24.Text = "GasTanks3"
-BtnText_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_24.TextScaled = true
-BtnText_24.TextSize = 14.000
-BtnText_24.TextWrapped = true
-
-Button_20.Name = "Button "
-Button_20.Parent = TPFRAME
-Button_20.AnchorPoint = Vector2.new(1, 1)
-Button_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_20.BackgroundTransparency = 1.000
-Button_20.Position = UDim2.new(0.89597553, 0, 0.151664153, 0)
-Button_20.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_20.Image = "rbxassetid://2790382281"
-Button_20.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_20.ScaleType = Enum.ScaleType.Slice
-Button_20.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_25.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_25.Rotation = -135
-UIGradient_25.Parent = Button_20
-
-UIAspectRatioConstraint_25.Parent = Button_20
-UIAspectRatioConstraint_25.AspectRatio = 7.000
-
-BtnText_25.Name = "BtnText"
-BtnText_25.Parent = Button_20
-BtnText_25.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_25.BackgroundTransparency = 1.000
-BtnText_25.BorderSizePixel = 0
-BtnText_25.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_25.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_25.Font = Enum.Font.GothamBlack
-BtnText_25.Text = "Generators1"
-BtnText_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_25.TextScaled = true
-BtnText_25.TextSize = 14.000
-BtnText_25.TextWrapped = true
-
-Button_21.Name = "Button "
-Button_21.Parent = TPFRAME
-Button_21.AnchorPoint = Vector2.new(1, 1)
-Button_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_21.BackgroundTransparency = 1.000
-Button_21.Position = UDim2.new(0.89597553, 0, 0.448316962, 0)
-Button_21.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_21.Image = "rbxassetid://2790382281"
-Button_21.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_21.ScaleType = Enum.ScaleType.Slice
-Button_21.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_26.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_26.Rotation = -135
-UIGradient_26.Parent = Button_21
-
-UIAspectRatioConstraint_26.Parent = Button_21
-UIAspectRatioConstraint_26.AspectRatio = 7.000
-
-BtnText_26.Name = "BtnText"
-BtnText_26.Parent = Button_21
-BtnText_26.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_26.BackgroundTransparency = 1.000
-BtnText_26.BorderSizePixel = 0
-BtnText_26.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_26.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_26.Font = Enum.Font.GothamBlack
-BtnText_26.Text = "Generators3"
-BtnText_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_26.TextScaled = true
-BtnText_26.TextSize = 14.000
-BtnText_26.TextWrapped = true
-
-Button_22.Name = "Button "
-Button_22.Parent = TPFRAME
-Button_22.AnchorPoint = Vector2.new(1, 1)
-Button_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_22.BackgroundTransparency = 1.000
-Button_22.Position = UDim2.new(0.89597553, 0, 0.937262952, 0)
-Button_22.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_22.Image = "rbxassetid://2790382281"
-Button_22.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_22.ScaleType = Enum.ScaleType.Slice
-Button_22.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_27.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_27.Rotation = -135
-UIGradient_27.Parent = Button_22
-
-UIAspectRatioConstraint_27.Parent = Button_22
-UIAspectRatioConstraint_27.AspectRatio = 7.000
-
-BtnText_27.Name = "BtnText"
-BtnText_27.Parent = Button_22
-BtnText_27.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_27.BackgroundTransparency = 1.000
-BtnText_27.BorderSizePixel = 0
-BtnText_27.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_27.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_27.Font = Enum.Font.GothamBlack
-BtnText_27.Text = "Notes5"
-BtnText_27.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_27.TextScaled = true
-BtnText_27.TextSize = 14.000
-BtnText_27.TextWrapped = true
-
-Button_23.Name = "Button "
-Button_23.Parent = TPFRAME
-Button_23.AnchorPoint = Vector2.new(1, 1)
-Button_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_23.BackgroundTransparency = 1.000
-Button_23.Position = UDim2.new(0.89597553, 0, 0.544234812, 0)
-Button_23.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_23.Image = "rbxassetid://2790382281"
-Button_23.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_23.ScaleType = Enum.ScaleType.Slice
-Button_23.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_28.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_28.Rotation = -135
-UIGradient_28.Parent = Button_23
-
-UIAspectRatioConstraint_28.Parent = Button_23
-UIAspectRatioConstraint_28.AspectRatio = 7.000
-
-BtnText_28.Name = "BtnText"
-BtnText_28.Parent = Button_23
-BtnText_28.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_28.BackgroundTransparency = 1.000
-BtnText_28.BorderSizePixel = 0
-BtnText_28.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_28.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_28.Font = Enum.Font.GothamBlack
-BtnText_28.Text = "Notes1"
-BtnText_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_28.TextScaled = true
-BtnText_28.TextSize = 14.000
-BtnText_28.TextWrapped = true
-
-Button_24.Name = "Button "
-Button_24.Parent = TPFRAME
-Button_24.AnchorPoint = Vector2.new(1, 1)
-Button_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_24.BackgroundTransparency = 1.000
-Button_24.Position = UDim2.new(0.89597553, 0, 0.843854308, 0)
-Button_24.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_24.Image = "rbxassetid://2790382281"
-Button_24.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_24.ScaleType = Enum.ScaleType.Slice
-Button_24.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_29.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_29.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_29.Rotation = -135
-UIGradient_29.Parent = Button_24
-
-UIAspectRatioConstraint_29.Parent = Button_24
-UIAspectRatioConstraint_29.AspectRatio = 7.000
-
-BtnText_29.Name = "BtnText"
-BtnText_29.Parent = Button_24
-BtnText_29.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_29.BackgroundTransparency = 1.000
-BtnText_29.BorderSizePixel = 0
-BtnText_29.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_29.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_29.Font = Enum.Font.GothamBlack
-BtnText_29.Text = "Notes4"
-BtnText_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_29.TextScaled = true
-BtnText_29.TextSize = 14.000
-BtnText_29.TextWrapped = true
-
-Button_25.Name = "Button "
-Button_25.Parent = TPFRAME
-Button_25.AnchorPoint = Vector2.new(1, 1)
-Button_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_25.BackgroundTransparency = 1.000
-Button_25.Position = UDim2.new(0.89597553, 0, 0.744969964, 0)
-Button_25.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_25.Image = "rbxassetid://2790382281"
-Button_25.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_25.ScaleType = Enum.ScaleType.Slice
-Button_25.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_30.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_30.Rotation = -135
-UIGradient_30.Parent = Button_25
-
-UIAspectRatioConstraint_30.Parent = Button_25
-UIAspectRatioConstraint_30.AspectRatio = 7.000
-
-BtnText_30.Name = "BtnText"
-BtnText_30.Parent = Button_25
-BtnText_30.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_30.BackgroundTransparency = 1.000
-BtnText_30.BorderSizePixel = 0
-BtnText_30.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_30.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_30.Font = Enum.Font.GothamBlack
-BtnText_30.Text = "Notes3"
-BtnText_30.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_30.TextScaled = true
-BtnText_30.TextSize = 14.000
-BtnText_30.TextWrapped = true
-
-Button_26.Name = "Button "
-Button_26.Parent = TPFRAME
-Button_26.AnchorPoint = Vector2.new(1, 1)
-Button_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_26.BackgroundTransparency = 1.000
-Button_26.Position = UDim2.new(0.89597553, 0, 0.64608568, 0)
-Button_26.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_26.Image = "rbxassetid://2790382281"
-Button_26.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_26.ScaleType = Enum.ScaleType.Slice
-Button_26.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIGradient_31.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_31.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_31.Rotation = -135
-UIGradient_31.Parent = Button_26
-
-UIAspectRatioConstraint_31.Parent = Button_26
-UIAspectRatioConstraint_31.AspectRatio = 7.000
-
-BtnText_31.Name = "BtnText"
-BtnText_31.Parent = Button_26
-BtnText_31.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_31.BackgroundTransparency = 1.000
-BtnText_31.BorderSizePixel = 0
-BtnText_31.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_31.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_31.Font = Enum.Font.GothamBlack
-BtnText_31.Text = "Notes2"
-BtnText_31.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_31.TextScaled = true
-BtnText_31.TextSize = 14.000
-BtnText_31.TextWrapped = true
-
 -- Scripts:
 
-local function MFJDK_fake_script() -- Button7ColourSwipe.Button7Script 
+local function QNTG_fake_script() -- Button7ColourSwipe.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	local btn = script.Parent
@@ -1347,8 +646,8 @@ local function MFJDK_fake_script() -- Button7ColourSwipe.Button7Script
 		end
 	end)
 end
-coroutine.wrap(MFJDK_fake_script)()
-local function RKNBVY_fake_script() -- Button7ColourSwipe.LocalScript 
+coroutine.wrap(QNTG_fake_script)()
+local function FBUC_fake_script() -- Button7ColourSwipe.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1359,8 +658,8 @@ local function RKNBVY_fake_script() -- Button7ColourSwipe.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RKNBVY_fake_script)()
-local function GXRDBJ_fake_script() -- Button7ColourSwipe_2.Button7Script 
+coroutine.wrap(FBUC_fake_script)()
+local function VWGC_fake_script() -- Button7ColourSwipe_2.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	local btn = script.Parent
@@ -1403,8 +702,8 @@ local function GXRDBJ_fake_script() -- Button7ColourSwipe_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(GXRDBJ_fake_script)()
-local function MRKKXGZ_fake_script() -- Button7ColourSwipe_2.LocalScript 
+coroutine.wrap(VWGC_fake_script)()
+local function AGET_fake_script() -- Button7ColourSwipe_2.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1415,8 +714,8 @@ local function MRKKXGZ_fake_script() -- Button7ColourSwipe_2.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MRKKXGZ_fake_script)()
-local function GODSCD_fake_script() -- Button7ColourSwipe_3.Button7Script 
+coroutine.wrap(AGET_fake_script)()
+local function SMFM_fake_script() -- Button7ColourSwipe_3.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	local btn = script.Parent
@@ -1459,8 +758,8 @@ local function GODSCD_fake_script() -- Button7ColourSwipe_3.Button7Script
 		end
 	end)
 end
-coroutine.wrap(GODSCD_fake_script)()
-local function REPMMU_fake_script() -- Button7ColourSwipe_3.LocalScript 
+coroutine.wrap(SMFM_fake_script)()
+local function ONYUVJA_fake_script() -- Button7ColourSwipe_3.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1471,8 +770,8 @@ local function REPMMU_fake_script() -- Button7ColourSwipe_3.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(REPMMU_fake_script)()
-local function SOHKTV_fake_script() -- Button7ColourSwipe_4.Button7Script 
+coroutine.wrap(ONYUVJA_fake_script)()
+local function FHJSOT_fake_script() -- Button7ColourSwipe_4.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	local btn = script.Parent
@@ -1515,8 +814,8 @@ local function SOHKTV_fake_script() -- Button7ColourSwipe_4.Button7Script
 		end
 	end)
 end
-coroutine.wrap(SOHKTV_fake_script)()
-local function GREMS_fake_script() -- Button7ColourSwipe_4.LocalScript 
+coroutine.wrap(FHJSOT_fake_script)()
+local function OYCW_fake_script() -- Button7ColourSwipe_4.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1527,8 +826,8 @@ local function GREMS_fake_script() -- Button7ColourSwipe_4.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(GREMS_fake_script)()
-local function YGGXJ_fake_script() -- Button.ANIMATION 
+coroutine.wrap(OYCW_fake_script)()
+local function ZEARJ_fake_script() -- Button.ANIMATION 
 	local script = Instance.new('LocalScript', Button)
 
 	local btn = script.Parent
@@ -1571,8 +870,8 @@ local function YGGXJ_fake_script() -- Button.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(YGGXJ_fake_script)()
-local function XTSP_fake_script() -- Button.TABLE 
+coroutine.wrap(ZEARJ_fake_script)()
+local function MZBKJ_fake_script() -- Button.TABLE 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1583,8 +882,8 @@ local function XTSP_fake_script() -- Button.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XTSP_fake_script)()
-local function COQLT_fake_script() -- Button.METAB SCRIPT 
+coroutine.wrap(MZBKJ_fake_script)()
+local function DPFMTE_fake_script() -- Button.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1597,16 +896,16 @@ local function COQLT_fake_script() -- Button.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(COQLT_fake_script)()
-local function FPTDXBK_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(DPFMTE_fake_script)()
+local function PZPOVFT_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(FPTDXBK_fake_script)()
-local function RDQUB_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(PZPOVFT_fake_script)()
+local function YGKRG_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1649,8 +948,8 @@ local function RDQUB_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(RDQUB_fake_script)()
-local function EXAYQG_fake_script() -- ImageLabel.DEPLACE  
+coroutine.wrap(YGKRG_fake_script)()
+local function XFFMCC_fake_script() -- ImageLabel.DEPLACE  
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -1728,8 +1027,8 @@ local function EXAYQG_fake_script() -- ImageLabel.DEPLACE
 	
 	
 end
-coroutine.wrap(EXAYQG_fake_script)()
-local function OCXHNP_fake_script() -- Button_2.ANIMATION 
+coroutine.wrap(XFFMCC_fake_script)()
+local function CZCZFGZ_fake_script() -- Button_2.ANIMATION 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local btn = script.Parent
@@ -1772,8 +1071,8 @@ local function OCXHNP_fake_script() -- Button_2.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(OCXHNP_fake_script)()
-local function WBIY_fake_script() -- Button_2.TABLE 
+coroutine.wrap(CZCZFGZ_fake_script)()
+local function LPOIMFH_fake_script() -- Button_2.TABLE 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1784,8 +1083,8 @@ local function WBIY_fake_script() -- Button_2.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WBIY_fake_script)()
-local function OBJXWUK_fake_script() -- Button_2.METAB SCRIPT 
+coroutine.wrap(LPOIMFH_fake_script)()
+local function ZWTSWH_fake_script() -- Button_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_2)
 
 	
@@ -1844,8 +1143,8 @@ local function OBJXWUK_fake_script() -- Button_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(OBJXWUK_fake_script)()
-local function ZKHQ_fake_script() -- Button_3.ANIMATION 
+coroutine.wrap(ZWTSWH_fake_script)()
+local function GBNM_fake_script() -- Button_3.ANIMATION 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local btn = script.Parent
@@ -1888,8 +1187,8 @@ local function ZKHQ_fake_script() -- Button_3.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(ZKHQ_fake_script)()
-local function MEQXTF_fake_script() -- Button_3.TABLE 
+coroutine.wrap(GBNM_fake_script)()
+local function OBXXKP_fake_script() -- Button_3.TABLE 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1900,8 +1199,8 @@ local function MEQXTF_fake_script() -- Button_3.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MEQXTF_fake_script)()
-local function ATAQWB_fake_script() -- Button_3.METAB SCRIPT 
+coroutine.wrap(OBXXKP_fake_script)()
+local function WRLIJVQ_fake_script() -- Button_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_3)
 
 	
@@ -1960,8 +1259,8 @@ local function ATAQWB_fake_script() -- Button_3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(ATAQWB_fake_script)()
-local function XMSQH_fake_script() -- Button_4.ANIMATION 
+coroutine.wrap(WRLIJVQ_fake_script)()
+local function LFWG_fake_script() -- Button_4.ANIMATION 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local btn = script.Parent
@@ -2004,8 +1303,8 @@ local function XMSQH_fake_script() -- Button_4.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(XMSQH_fake_script)()
-local function XUTUT_fake_script() -- Button_4.TABLE 
+coroutine.wrap(LFWG_fake_script)()
+local function QVQRUS_fake_script() -- Button_4.TABLE 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2016,8 +1315,8 @@ local function XUTUT_fake_script() -- Button_4.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XUTUT_fake_script)()
-local function RVUGIKY_fake_script() -- Button_5.ANIMATION 
+coroutine.wrap(QVQRUS_fake_script)()
+local function CVVP_fake_script() -- Button_5.ANIMATION 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local btn = script.Parent
@@ -2060,8 +1359,8 @@ local function RVUGIKY_fake_script() -- Button_5.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(RVUGIKY_fake_script)()
-local function VDLEFML_fake_script() -- Button_5.TABLE 
+coroutine.wrap(CVVP_fake_script)()
+local function CVCVGCP_fake_script() -- Button_5.TABLE 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2072,8 +1371,8 @@ local function VDLEFML_fake_script() -- Button_5.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VDLEFML_fake_script)()
-local function WSPWYMH_fake_script() -- Button_5.METAB SCRIPT 
+coroutine.wrap(CVCVGCP_fake_script)()
+local function PERP_fake_script() -- Button_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2112,8 +1411,8 @@ local function WSPWYMH_fake_script() -- Button_5.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(WSPWYMH_fake_script)()
-local function EJNQNIE_fake_script() -- Button_6.ANIMATION 
+coroutine.wrap(PERP_fake_script)()
+local function NHXEJP_fake_script() -- Button_6.ANIMATION 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local btn = script.Parent
@@ -2156,8 +1455,8 @@ local function EJNQNIE_fake_script() -- Button_6.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(EJNQNIE_fake_script)()
-local function BLIGMJZ_fake_script() -- Button_6.TABLE 
+coroutine.wrap(NHXEJP_fake_script)()
+local function NKXJS_fake_script() -- Button_6.TABLE 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2168,8 +1467,8 @@ local function BLIGMJZ_fake_script() -- Button_6.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(BLIGMJZ_fake_script)()
-local function BABYIZG_fake_script() -- Button_6.METAB SCRIPT 
+coroutine.wrap(NKXJS_fake_script)()
+local function JBTMIWJ_fake_script() -- Button_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2197,8 +1496,8 @@ local function BABYIZG_fake_script() -- Button_6.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(BABYIZG_fake_script)()
-local function GDXHV_fake_script() -- Button_7.ANIMATION 
+coroutine.wrap(JBTMIWJ_fake_script)()
+local function BDOCZZ_fake_script() -- Button_7.ANIMATION 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local btn = script.Parent
@@ -2241,8 +1540,8 @@ local function GDXHV_fake_script() -- Button_7.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(GDXHV_fake_script)()
-local function WCCR_fake_script() -- Button_7.TABLE 
+coroutine.wrap(BDOCZZ_fake_script)()
+local function BFWDZ_fake_script() -- Button_7.TABLE 
 	local script = Instance.new('LocalScript', Button_7)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2253,8 +1552,8 @@ local function WCCR_fake_script() -- Button_7.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WCCR_fake_script)()
-local function KNFJZ_fake_script() -- Button_7.METAB SCRIPT 
+coroutine.wrap(BFWDZ_fake_script)()
+local function ZTIEVH_fake_script() -- Button_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_7)
 
 	
@@ -2313,8 +1612,8 @@ local function KNFJZ_fake_script() -- Button_7.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(KNFJZ_fake_script)()
-local function IQFA_fake_script() -- Button_8.METAB SCRIPT 
+coroutine.wrap(ZTIEVH_fake_script)()
+local function SMUWTU_fake_script() -- Button_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_8)
 
 	
@@ -2373,8 +1672,8 @@ local function IQFA_fake_script() -- Button_8.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(IQFA_fake_script)()
-local function BWFSPK_fake_script() -- Button_8.TABLE 
+coroutine.wrap(SMUWTU_fake_script)()
+local function SHREYSV_fake_script() -- Button_8.TABLE 
 	local script = Instance.new('LocalScript', Button_8)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2385,8 +1684,8 @@ local function BWFSPK_fake_script() -- Button_8.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(BWFSPK_fake_script)()
-local function PCQTDK_fake_script() -- Button_8.ANIMATION 
+coroutine.wrap(SHREYSV_fake_script)()
+local function ERLVMJO_fake_script() -- Button_8.ANIMATION 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local btn = script.Parent
@@ -2429,1307 +1728,4 @@ local function PCQTDK_fake_script() -- Button_8.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(PCQTDK_fake_script)()
-local function MUMT_fake_script() -- Button_9.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_9)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Bunker.Escape.Transition.Exit.CFrame
-	
-	
-	end)
-	
-	
-	
-	
-	
-	
-	
-end
-coroutine.wrap(MUMT_fake_script)()
-local function NJGN_fake_script() -- Button_9.TABLE 
-	local script = Instance.new('LocalScript', Button_9)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(NJGN_fake_script)()
-local function FTBNIC_fake_script() -- Button_9.ANIMATION 
-	local script = Instance.new('LocalScript', Button_9)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(FTBNIC_fake_script)()
-local function ZRQL_fake_script() -- Button_10.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_10)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_4"].Prompt.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(ZRQL_fake_script)()
-local function DRBHN_fake_script() -- Button_10.TABLE 
-	local script = Instance.new('LocalScript', Button_10)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(DRBHN_fake_script)()
-local function JAYP_fake_script() -- Button_10.ANIMATION 
-	local script = Instance.new('LocalScript', Button_10)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(JAYP_fake_script)()
-local function EQCHV_fake_script() -- Button_11.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_11)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_3"].Prompt.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(EQCHV_fake_script)()
-local function SZDEY_fake_script() -- Button_11.TABLE 
-	local script = Instance.new('LocalScript', Button_11)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(SZDEY_fake_script)()
-local function YOJYJYN_fake_script() -- Button_11.ANIMATION 
-	local script = Instance.new('LocalScript', Button_11)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(YOJYJYN_fake_script)()
-local function IYBFYIA_fake_script() -- Button_12.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_12)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_1"].Prompt.CFrame
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(IYBFYIA_fake_script)()
-local function ZOHLEJ_fake_script() -- Button_12.TABLE 
-	local script = Instance.new('LocalScript', Button_12)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(ZOHLEJ_fake_script)()
-local function JZODMVI_fake_script() -- Button_12.ANIMATION 
-	local script = Instance.new('LocalScript', Button_12)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(JZODMVI_fake_script)()
-local function ZUGLUI_fake_script() -- Button_13.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_13)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Fuseboxes1["Fusebox_2"].Prompt.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(ZUGLUI_fake_script)()
-local function BKOD_fake_script() -- Button_13.TABLE 
-	local script = Instance.new('LocalScript', Button_13)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(BKOD_fake_script)()
-local function EHCRH_fake_script() -- Button_13.ANIMATION 
-	local script = Instance.new('LocalScript', Button_13)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(EHCRH_fake_script)()
-local function NFOFG_fake_script() -- Button_14.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_14)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_2"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(NFOFG_fake_script)()
-local function ETBJXYA_fake_script() -- Button_14.TABLE 
-	local script = Instance.new('LocalScript', Button_14)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(ETBJXYA_fake_script)()
-local function CVQB_fake_script() -- Button_14.ANIMATION 
-	local script = Instance.new('LocalScript', Button_14)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(CVQB_fake_script)()
-local function OZLYDLE_fake_script() -- Button_15.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_15)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_1"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(OZLYDLE_fake_script)()
-local function SGAMHH_fake_script() -- Button_15.TABLE 
-	local script = Instance.new('LocalScript', Button_15)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(SGAMHH_fake_script)()
-local function MPOEZ_fake_script() -- Button_15.ANIMATION 
-	local script = Instance.new('LocalScript', Button_15)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(MPOEZ_fake_script)()
-local function GQSSEWY_fake_script() -- Button_16.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_16)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_2"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(GQSSEWY_fake_script)()
-local function CDBUWBX_fake_script() -- Button_16.TABLE 
-	local script = Instance.new('LocalScript', Button_16)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(CDBUWBX_fake_script)()
-local function EESTOUJ_fake_script() -- Button_16.ANIMATION 
-	local script = Instance.new('LocalScript', Button_16)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(EESTOUJ_fake_script)()
-local function MKWHEI_fake_script() -- Button_17.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_17)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_4"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(MKWHEI_fake_script)()
-local function GWQSEI_fake_script() -- Button_17.TABLE 
-	local script = Instance.new('LocalScript', Button_17)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(GWQSEI_fake_script)()
-local function OJIS_fake_script() -- Button_17.ANIMATION 
-	local script = Instance.new('LocalScript', Button_17)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(OJIS_fake_script)()
-local function PTKEVT_fake_script() -- Button_18.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_18)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_4"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(PTKEVT_fake_script)()
-local function AOIWPKD_fake_script() -- Button_18.TABLE 
-	local script = Instance.new('LocalScript', Button_18)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(AOIWPKD_fake_script)()
-local function LLTYX_fake_script() -- Button_18.ANIMATION 
-	local script = Instance.new('LocalScript', Button_18)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(LLTYX_fake_script)()
-local function SGDUPDC_fake_script() -- Button_19.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_19)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_3"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(SGDUPDC_fake_script)()
-local function MQLZUC_fake_script() -- Button_19.TABLE 
-	local script = Instance.new('LocalScript', Button_19)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(MQLZUC_fake_script)()
-local function EMIWB_fake_script() -- Button_19.ANIMATION 
-	local script = Instance.new('LocalScript', Button_19)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(EMIWB_fake_script)()
-local function KTVQMZH_fake_script() -- Button_20.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_20)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.GasTank1["GasTank_5"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(KTVQMZH_fake_script)()
-local function JVSZL_fake_script() -- Button_20.TABLE 
-	local script = Instance.new('LocalScript', Button_20)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(JVSZL_fake_script)()
-local function FQZBYB_fake_script() -- Button_20.ANIMATION 
-	local script = Instance.new('LocalScript', Button_20)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(FQZBYB_fake_script)()
-local function UBZA_fake_script() -- Button_21.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_21)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Objectives.Generator1["Generator_3"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(UBZA_fake_script)()
-local function CQFAM_fake_script() -- Button_21.TABLE 
-	local script = Instance.new('LocalScript', Button_21)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(CQFAM_fake_script)()
-local function IVTAWXT_fake_script() -- Button_21.ANIMATION 
-	local script = Instance.new('LocalScript', Button_21)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(IVTAWXT_fake_script)()
-local function OXTAUQ_fake_script() -- Button_22.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_22)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_5"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(OXTAUQ_fake_script)()
-local function RLATT_fake_script() -- Button_22.TABLE 
-	local script = Instance.new('LocalScript', Button_22)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(RLATT_fake_script)()
-local function WIIN_fake_script() -- Button_22.ANIMATION 
-	local script = Instance.new('LocalScript', Button_22)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(WIIN_fake_script)()
-local function UGQHAG_fake_script() -- Button_23.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_23)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_1"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(UGQHAG_fake_script)()
-local function IJHSNF_fake_script() -- Button_23.TABLE 
-	local script = Instance.new('LocalScript', Button_23)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(IJHSNF_fake_script)()
-local function RLYZLJV_fake_script() -- Button_23.ANIMATION 
-	local script = Instance.new('LocalScript', Button_23)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(RLYZLJV_fake_script)()
-local function YBUDD_fake_script() -- Button_24.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_24)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_3"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(YBUDD_fake_script)()
-local function KGYQ_fake_script() -- Button_24.TABLE 
-	local script = Instance.new('LocalScript', Button_24)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(KGYQ_fake_script)()
-local function IORRYOM_fake_script() -- Button_24.ANIMATION 
-	local script = Instance.new('LocalScript', Button_24)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(IORRYOM_fake_script)()
-local function YKZM_fake_script() -- Button_25.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_25)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_2"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(YKZM_fake_script)()
-local function RWCBKA_fake_script() -- Button_25.TABLE 
-	local script = Instance.new('LocalScript', Button_25)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(RWCBKA_fake_script)()
-local function JGVAP_fake_script() -- Button_25.ANIMATION 
-	local script = Instance.new('LocalScript', Button_25)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(JGVAP_fake_script)()
-local function JHBVS_fake_script() -- Button_26.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button_26)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.CurrentMap.Mechanics.Notes["Chapter1_4"].Root.CFrame
-	
-	
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(JHBVS_fake_script)()
-local function OOND_fake_script() -- Button_26.TABLE 
-	local script = Instance.new('LocalScript', Button_26)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TPFRAME.Visible = true
-		script.Parent.Parent.MISCFRAME.Visible = false
-		script.Parent.Parent.HOMEFRAME.Visible = false
-		script.Parent.Parent.AUTOFARMFRAME.Visible = false
-		wait(0.1)
-	end)
-end
-coroutine.wrap(OOND_fake_script)()
-local function CSEXN_fake_script() -- Button_26.ANIMATION 
-	local script = Instance.new('LocalScript', Button_26)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(CSEXN_fake_script)()
+coroutine.wrap(ERLVMJO_fake_script)()
